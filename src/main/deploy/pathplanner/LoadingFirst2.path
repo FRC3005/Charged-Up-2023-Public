@@ -1,0 +1,102 @@
+{
+  "waypoints": [
+    {
+      "anchorPoint": {
+        "x": 1.8241356683965244,
+        "y": 4.934375563683989
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.8241356683965244,
+        "y": 4.934375563683989
+      },
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": true,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 6.691189247507156,
+        "y": 4.58
+      },
+      "prevControl": {
+        "x": 6.3190844862346065,
+        "y": 4.794834784087447
+      },
+      "nextControl": {
+        "x": 6.3190844862346065,
+        "y": 4.794834784087447
+      },
+      "holonomicAngle": -15.0,
+      "isReversal": true,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    },
+    {
+      "anchorPoint": {
+        "x": 1.87,
+        "y": 4.3
+      },
+      "prevControl": {
+        "x": 2.923598461482637,
+        "y": 4.732847014910827
+      },
+      "nextControl": null,
+      "holonomicAngle": 0,
+      "isReversal": false,
+      "velOverride": null,
+      "isLocked": false,
+      "isStopPoint": false,
+      "stopEvent": {
+        "names": [],
+        "executionBehavior": "parallel",
+        "waitBehavior": "none",
+        "waitTime": 0
+      }
+    }
+  ],
+  "maxVelocity": 5.0,
+  "maxAcceleration": 4.8,
+  "isReversed": null,
+  "markers": [
+    {
+      "position": 1.08,
+      "names": [
+        "intakeSafeCube"
+      ]
+    },
+    {
+      "position": 0.02,
+      "names": [
+        "intakeCubeAfterScoreFaster"
+      ]
+    },
+    {
+      "position": 1.4272727272727241,
+      "names": [
+        "preScoreCubeHigh"
+      ]
+    },
+    {
+      "position": 0.6909090909090901,
+      "names": [
+        "intakeStopOnGamepiece"
+      ]
+    }
+  ]
+}

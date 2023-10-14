@@ -1,0 +1,147 @@
+{
+  "version": "2.2.2",
+  "layout": [
+    {
+      "type": 1,
+      "legends": {
+        "left": {
+          "lockedRange": null,
+          "unitConversion": {
+            "type": null,
+            "factor": 1
+          },
+          "fields": [
+            {
+              "key": "/Telemetry/DriveSubsystem/Velocity vx",
+              "color": "#e5b31b",
+              "show": true
+            },
+            {
+              "key": "/Telemetry/DriveSubsystem/Velocity vy",
+              "color": "#2b66a2",
+              "show": true
+            },
+            {
+              "key": "/SmartDashboard/PPSwerveControllerCommand/vxSetpoint",
+              "color": "#af2437",
+              "show": true
+            },
+            {
+              "key": "/SmartDashboard/PPSwerveControllerCommand/vySetpoint",
+              "color": "#80588e",
+              "show": true
+            },
+            {
+              "key": "/SmartDashboard/PPSwerveControllerCommand/xErrorMeters",
+              "color": "#e48b32",
+              "show": true
+            },
+            {
+              "key": "/SmartDashboard/PPSwerveControllerCommand/yErrorMeters",
+              "color": "#aacaee",
+              "show": true
+            }
+          ]
+        },
+        "discrete": {
+          "fields": []
+        },
+        "right": {
+          "lockedRange": null,
+          "unitConversion": {
+            "type": null,
+            "factor": 1
+          },
+          "fields": []
+        }
+      },
+      "title": "Line Graph"
+    },
+    {
+      "type": 6,
+      "fields": [],
+      "listFields": [
+        [],
+        [
+          {
+            "type": "Robot",
+            "key": "/Telemetry/RobotState/Field/Robot",
+            "fieldTypeIndex": 0
+          },
+          {
+            "type": "Ghost",
+            "key": "/Telemetry/RobotState/Field/percy",
+            "fieldTypeIndex": 0
+          },
+          {
+            "type": "Ghost",
+            "key": "/Telemetry/RobotState/Field/james",
+            "fieldTypeIndex": 0
+          },
+          {
+            "type": "Trajectory",
+            "key": "/Telemetry/DriveSubsystem/Field 2d/Active Trajectory",
+            "fieldTypeIndex": 0
+          }
+        ]
+      ],
+      "options": {
+        "field": "2023",
+        "alliance": "red",
+        "robot": "Amp",
+        "unitDistance": "meters",
+        "unitRotation": "degrees"
+      },
+      "title": "3D Field"
+    },
+    {
+      "type": 5,
+      "fields": [],
+      "listFields": [
+        [
+          {
+            "type": "Ghost",
+            "key": "/Telemetry/RobotState/Field/Robot",
+            "fieldTypeIndex": 0
+          },
+          {
+            "type": "Arrow (Center)",
+            "key": "/Telemetry/RobotState/Field/percy",
+            "fieldTypeIndex": 0
+          },
+          {
+            "type": "Arrow (Center)",
+            "key": "/Telemetry/RobotState/Field/gordon",
+            "fieldTypeIndex": 0
+          },
+          {
+            "type": "Robot",
+            "key": "/Telemetry/DriveSubsystem/Field 2d/Robot",
+            "fieldTypeIndex": 0
+          },
+          {
+            "type": "Trajectory",
+            "key": "/Telemetry/DriveSubsystem/Field 2d/Active Trajectory",
+            "fieldTypeIndex": 0
+          },
+          {
+            "type": "Ghost",
+            "key": "/Telemetry/DriveSubsystem/Field 2d/Target Pose",
+            "fieldTypeIndex": 0
+          }
+        ]
+      ],
+      "options": {
+        "game": "2023",
+        "unitDistance": "meters",
+        "unitRotation": "degrees",
+        "origin": "right",
+        "size": 0.75,
+        "allianceBumpers": "red",
+        "allianceOrigin": "red",
+        "orientation": "red left, blue right"
+      },
+      "title": "Odometry"
+    }
+  ]
+}
